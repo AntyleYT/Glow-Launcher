@@ -2,7 +2,7 @@
 ## (Ex-AntylerMC)
 Rebuilding of the repo ....
 
-`## Release : 1.1
+```## Release : 1.1
 ## early access Release available : Soon
 ## SNAPSHOT : SNAPSHOT DEV-1.1.1
 
@@ -23,4 +23,4 @@ Rebuilding of the repo ....
 - And more !
 
 
-OPEN-SOURCE AND FREE (DO NOT USE FOR ILLEGAL CONTENT)`
+OPEN-SOURCE AND FREE (DO NOT USE FOR ILLEGAL CONTENT)
