@@ -1,5 +1,8 @@
-# AntylerMC Minecraft launcher by Antyle_YT
-## Release : 1.1
+# Glow Launcher
+## (Ex-AntylerMC)
+Rebuilding of the repo ....
+
+```## Release : 1.1
 ## early access Release available : Soon
 ## SNAPSHOT : SNAPSHOT DEV-1.1.1
 
@@ -18,11 +21,6 @@
 - Optimization : ✔️ Steps 1/5 
 - Adding mods
 - And more !
-
-## Discord : 
-
-- https://dsc.gg/antyler
-
 
 
 OPEN-SOURCE AND FREE (DO NOT USE FOR ILLEGAL CONTENT)
