@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>fr.antyle</groupId>
-    <artifactId>AntylerMC</artifactId>
-    <version>1.1</version>
+    <artifactId>GlowClient</artifactId>
+    <version>1.2</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
