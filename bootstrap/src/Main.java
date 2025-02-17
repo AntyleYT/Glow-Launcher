@@ -37,7 +37,7 @@ public class Main {
         splashScreen.displayFor(5000L);
     }
     public static void doUpdate() throws Exception {
-        FlowUpdater flowUpdater = new FlowUpdater.FlowUpdaterBuilder().withExternalFiles(ExternalFile.getExternalFilesFromJson("https://github.com/AntyleYT/Glow-Launcher/GLOW-updates/update.json")).build();
+        FlowUpdater flowUpdater = new FlowUpdater.FlowUpdaterBuilder().withExternalFiles(ExternalFile.getExternalFilesFromJson("https://raw.githubusercontent.com/AntyleYT/Glow-Launcher/refs/heads/master/GLOW-updates/update.json")).build();
         flowUpdater.update(Paths.get(path + "/launchers"));
     }
     public static void launchLauncher() throws LaunchException {
