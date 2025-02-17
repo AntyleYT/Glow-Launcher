@@ -24,8 +24,8 @@ public class Animation {
                 setOpacity(frame, opacity);
             }
         });
-        setOpacity(frame, 0.0f); // Initial opacity
-        frame.setVisible(true); // Show the frame
+        setOpacity(frame, 0.0f);
+        frame.setVisible(true);
         timer.start();
     }
 
@@ -35,7 +35,7 @@ public class Animation {
 
     public static void fadeOutFrame(JFrame frame, int duration, Runnable onFinish) {
         if (isFadingOut) {
-            return; // Already fading out
+            return;
         }
         isFadingOut = true;
 
@@ -54,12 +54,12 @@ public class Animation {
                     if (onFinish != null) {
                         onFinish.run();
                     }
-                    frame.setVisible(false); // Hide the frame when animation completes
+                    frame.setVisible(false);
                 }
                 setOpacity(frame, opacity);
             }
         });
-        setOpacity(frame, 1.0f); // Set initial opacity to fully visible
+        setOpacity(frame, 1.0f);
         timer.start();
     }
 

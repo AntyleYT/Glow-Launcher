@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class launcher {
-    private static GameInfos gameInfos = new GameInfos("AntylerMC", new GameVersion("Antyler 1.16.5", GameType.V1_13_HIGHER_FORGE), new GameTweak[]{GameTweak.FORGE});
+    private static GameInfos gameInfos = new GameInfos("GlowClient", new GameVersion("GlowClient 1.2.0-beta", GameType.V1_13_HIGHER_FORGE), new GameTweak[]{GameTweak.FORGE});
     private static Path path = gameInfos.getGameDir();
     public static File crashfile = new File(String.valueOf(path), "crashes");
     private static CrashReporter reporter = new CrashReporter(String.valueOf(crashfile), path);
@@ -41,7 +41,7 @@ public class launcher {
         }
     }
     public static void update () throws Exception {
-        VanillaVersion vanillaVersion = new VanillaVersion.VanillaVersionBuilder().withName("1.16.5").build();
+        VanillaVersion vanillaVersion = new VanillaVersion.VanillaVersionBuilder().withName("Glow-1.16.5").build();
         UpdaterOptions options = new UpdaterOptions.UpdaterOptionsBuilder().build();
 
         List<CurseFileInfo> curseFileInfos = new ArrayList<>();

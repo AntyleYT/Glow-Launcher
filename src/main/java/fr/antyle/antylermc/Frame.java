@@ -21,13 +21,13 @@ public class Frame extends JFrame {
 
     private static Frame instance;
     private Panel panel;
-    private static File ramFile = new File(String.valueOf(launcher.getPath()),"ram.info");
-    private static File saverFile = new File(String.valueOf(launcher.getPath()),"user.stock");
+    private static File ramFile = new File(String.valueOf(launcher.getPath()),"settings.glow");
+    private static File saverFile = new File(String.valueOf(launcher.getPath()),"do_not_share.this");
     private static Saver saver = new Saver(saverFile);
 
     public Frame() throws IOException {
         instance = this;
-        this.setTitle("AntylerMC");
+        this.setTitle("GlowClient");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setSize(960,509);
         this.setUndecorated(true);
@@ -64,8 +64,8 @@ public class Frame extends JFrame {
         lib.Discord_Initialize(appID, handlers, true, "");
         DiscordRichPresence discordRichPresence = new DiscordRichPresence();
         discordRichPresence.startTimestamp = System.currentTimeMillis() / 1000;
-        discordRichPresence.details = "Playing AntylerMC";
-        discordRichPresence.state = "AntylerMC";
+        discordRichPresence.details = "Playing GlowClient";
+        discordRichPresence.state = "GlowClient";
 
         lib.Discord_UpdatePresence(discordRichPresence);
     }
