@@ -1,0 +1,10 @@
+{
+  "extfiles": [
+    {
+      "path": "GlowLauncher.jar",
+      "downloadURL": "https://github.com/AntyleYT/Glow-Launcher/raw/refs/heads/master/GLOW-updates/GlowLauncher.jar",
+      "sha1": "eb3a31c1649c098942e04e045143d586c31747f0",
+      "size": 42036619
+    }
+  ]
+}
